@@ -13,7 +13,7 @@ If your account does not meet these requirements, the workflow will fail.
 
 # Setup
 
-## 1. Create Your Group Tracker
+## 1. Create Your Group Maker
 
 Click the "[Use This Template](https://github.com/kemocade/Kemocade.Vrc.Group.Maker/generate)" button to create your own repository based on this template repository.
 
