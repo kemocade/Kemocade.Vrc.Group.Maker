@@ -3,7 +3,7 @@
 -----
 # Introduction
 
-This is a template repository for quickly configuring your own GitHub Actions powered workflow to automatically make your desired VRChat Group(s).
+This is a template repository for quickly configuring your own GitHub Actions powered workflow to automatically make your desired VRChat Group.
 
 # Prerequisites
 
