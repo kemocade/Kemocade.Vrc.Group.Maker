@@ -7,7 +7,7 @@ This is a template repository for quickly configuring your own GitHub Actions po
 
 # Prerequisites
 
-In order to track a group's member and permission data, you will need access to a VRChat account that has an active VRChat Plus Subscription.
+In order to create groups, you will need access to a VRChat account that has an active VRChat Plus Subscription.
 
 If your account does not meet these requirements, the workflow will fail.
 
