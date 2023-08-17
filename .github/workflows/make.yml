@@ -14,7 +14,6 @@ jobs:
       - name: Kemocade VRChat Group Maker Action
         uses: kemocade/Kemocade.Vrc.Group.Maker.Action@1.0.1
         with:
-          output: ${{ env.output }}
           username: ${{ vars.VRCHAT_USERNAME }}
           password: ${{ secrets.VRCHAT_PASSWORD }}
           key: ${{ secrets.VRCHAT_KEY }}
