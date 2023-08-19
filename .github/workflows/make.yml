@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Kemocade VRChat Group Maker Action
-        uses: kemocade/Kemocade.Vrc.Group.Maker.Action@1.0.2
+        uses: kemocade/Kemocade.Vrc.Group.Maker.Action@1.0.3
         with:
           username: ${{ vars.VRCHAT_USERNAME }}
           password: ${{ secrets.VRCHAT_PASSWORD }}
