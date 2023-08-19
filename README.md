@@ -26,6 +26,8 @@ For details on how to create repository variables, see [Creating Configuration V
   * Make sure you are using your VRChat Username, not your Display Name or User ID.
   * For more information on the various different VRChat account identifiers, see [Account Names and Identifiers](https://help.vrchat.com/hc/articles/4408181867027-Account-Names-and-Identifiers-Usernames-Display-Names-and-User-IDs).
 
+* `VRCHAT_NAME`: The Name of the VRChat Group you want to make.
+
 * `VRCHAT_SHORTCODE`: The Group Shortcode of the VRChat Group you want to make.
 
 * `VRCHAT_DISCRIMINATORS`: The Group Discriminator(s) of the VRChat Group you want to make.
@@ -53,7 +55,7 @@ For details on how to create repository secrets, see [Creating Encrypted Secrets
 
 ## 4. Run the Action
 
-By default, this template is scheduled to run every 30 minutes (but may take a few minutes afterwards to actually start).
+By default, this template is scheduled to run every hour (but may take a few minutes afterwards to actually start).
 You can adjust this schedule by [adjusting the schedule trigger](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule) in your workflow.
 If you don't want to wait, you can also [run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow).
 
