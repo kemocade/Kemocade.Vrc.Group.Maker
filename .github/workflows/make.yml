@@ -3,7 +3,7 @@ name: Run the Kemocade VRChat Group Maker Action
 on:
   # Runs every hour at XX:30 by default
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -12,10 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Kemocade VRChat Group Maker Action
-        uses: kemocade/Kemocade.Vrc.Group.Maker.Action@1.0.3
+        uses: kemocade/Kemocade.Vrc.Group.Maker.Action@1.0.4
         with:
           username: ${{ vars.VRCHAT_USERNAME }}
           password: ${{ secrets.VRCHAT_PASSWORD }}
           key: ${{ secrets.VRCHAT_KEY }}
-          shortcode: ${{ env.VRCHAT_SHORTCODE }}
-          discriminators: ${{ env.VRCHAT_DISCRIMINATORS }}
+          name: ${{ vars.VRCHAT_NAME }}
+          shortcode: ${{ vars.VRCHAT_SHORTCODE }}
+          discriminators: ${{ vars.VRCHAT_DISCRIMINATORS }}
