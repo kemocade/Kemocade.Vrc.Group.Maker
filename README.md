@@ -55,7 +55,7 @@ For details on how to create repository secrets, see [Creating Encrypted Secrets
 
 ## 4. Run the Action
 
-By default, this template is scheduled to run every hour (but may take a few minutes afterwards to actually start).
+By default, this template is scheduled to run at every half hour (but may take a few minutes afterwards to actually start).
 You can adjust this schedule by [adjusting the schedule trigger](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule) in your workflow.
 If you don't want to wait, you can also [run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow).
 
